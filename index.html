@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+
+    <link rel="stylesheet" href="css/style.css" /> 
+
+    <script src="js/jquery-3.6.0.js"></script>
+</head>
+<body>
+    <div id="quiz" data-status="ok">
+        
+        <h2 id="question">Aqui vai a pergunta?</h2>
+
+        <div id="answers">
+            <button id="ans0" class="answer">Resposta 1</button>
+            <button id="ans1" class="answer">Resposta 2</button>
+            <button id="ans2" class="answer">Resposta 3</button>
+            <button id="ans3" class="answer">Resposta 4</button>
+        </div>
+
+        <br><br>
+        <button id="confirm">Confirmar</button>
+    </div>
+
+    <div id="status" class="hidden">
+        <h2 id="msg">Game Over!</h2>
+        <button id="newGame">Jogar Novamente</button>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
